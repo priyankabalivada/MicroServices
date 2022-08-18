@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Behavioral</title>
+<style>
+body {background:springgreen;}
+.main {text-align:center;margin:0 auto;width:50%;}
+</style>
+</head>
+<body>
+<div class="main">
+<h1>Behavioral Assesment registration</h1>
+<form name="add" action="/addBehavirolData" method="POST">
+<table border="1">
+
+
+
+<tr><td>User ID</td><td><input type="text" name="uid" required/></td></tr>
+<tr><td>Assesment</td><td><select id="uLevel" name="subject">
+  <option value="Step Plus">Step Plus</option>
+  <option value="Email Etiquette">Email Etiquette</option>
+   <option value="Learning Agility">Learning Agility</option>
+  
+</select></td></tr>
+<tr><td>Date</td><td><input type="date" id="assDate" name="assDate"></td></tr>
+<tr><td colspan="2"><input type="submit" name="submit" value="submit"/></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>

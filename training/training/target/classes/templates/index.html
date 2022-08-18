@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>CafeInfo</title>
+<style>
+body {background:indianred;}
+.main {text-align:center;margin:0 auto;width:50%;}
+input[type=submit] {align:center;margin: 0 auto;display:block;}
+
+
+
+</style>
+</head>
+<body>
+<div class="main">
+<h1>Login</h1>
+<form name="add" action="/checkAdminOrEmployee" method="POST">
+<table border="1">
+<tr><td>User Name</td><td><input type="text" name="uName" required/></td></tr>
+<tr><td>Password</td><td><input type="text" name="password" required/></td></tr>
+<tr><td>user level</td><td>
+<select id="uLevel" name="uLevel">
+  <option value="emp">Employee</option>
+  <option value="admin">Admin</option>
+</select>
+<tr><td colspan="2"><input type="submit" name="submit" value="submit"/></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
